@@ -4,7 +4,7 @@ import { useEffect } from "react";
 const ThemeToggle = () => {
     const { isDarkTheme, toggleDarkTheme } = useGlobalContext();
     useEffect(()=> {
-        
+        localStorage.getItem("dark")
     },[])
     return (
         <section className="toggle-container">
