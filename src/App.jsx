@@ -1,6 +1,6 @@
 import { Gallery } from "./Components/Gallery";
 import { SearchForm } from "./Components/SearchForm";
-import { ThemeToggle } from "./Components/themeToggle";
+import { ThemeToggle } from "./Components/ThemeToggle";
 import { useState } from "react";
 const App = () => {
   const { isDarkTheme, toggleDarkTheme } = useState(false)
